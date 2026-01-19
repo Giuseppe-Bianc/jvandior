@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "jvandior"
-include("app", "list", "utilities")
+include("app")
