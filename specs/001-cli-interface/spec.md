@@ -134,4 +134,4 @@ As a developer using the REPL, I want to navigate through my previous commands u
 - Java 11+ runtime is available on target systems (standard for cross-platform CLI applications)
 - Terminal emulators support ANSI escape codes for basic formatting (standard on modern systems)
 - Users have basic familiarity with command-line interfaces
-- Script files use the `.jvd` extension by convention, but the CLI accepts any file path
+- Script files use the `.vn` extension by convention, but the CLI accepts any file path
