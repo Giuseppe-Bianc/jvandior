@@ -44,5 +44,7 @@ tasks.named<Test>("test") {
 }
 
 checkstyle {
-    toolVersion = "10.12.0"
+    toolVersion = "12.3.0"
+    // Explicitly point to the project's Checkstyle configuration file
+    configFile = file("config/checkstyle/checkstyle.xml")
 }
