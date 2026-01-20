@@ -8,6 +8,7 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+    checkstyle
 }
 
 repositories {
@@ -40,4 +41,10 @@ application {
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+checkstyle {
+    toolVersion = "12.3.0"
+    // Explicitly point to the project's Checkstyle configuration file
+    configFile = file("config/checkstyle/checkstyle.xml")
 }
