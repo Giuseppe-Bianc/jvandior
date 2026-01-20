@@ -28,3 +28,19 @@ replay_pid*
 
 # Ignore Gradle build output directory
 build
+
+# IDEs and editor folders
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Editor swap/temp files
+*.swp
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
