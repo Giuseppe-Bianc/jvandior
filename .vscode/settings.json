@@ -5,6 +5,7 @@
         "speckit.plan": true,
         "speckit.tasks": true,
         "speckit.implement": true
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
 
